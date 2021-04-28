@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Aplicacion web para gestionar servicio tecnico</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    </head>
+    <body background="images/imagen1.jpg" style="background-size: 100%;" id="body">
+        <!-- Creamos un contenedor, el cual nos servira para insertar rows, o filas -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-center">
+            <a class="navbar-brand p-2" href="index.html" style="font-size: 32px;">Gestor de reservas para Hotel Trivago</a>
+
+        </nav>
+        <nav class="nav nav-pills justify-content-center bg-light">
+            <a class="nav-item nav-link active" href="index.html">INICIO</a>
+            <a class="nav-item nav-link disabled" href="index.html"  tabindex="-1" aria-disabled="true">REGISTRO</a>
+            <a class="nav-item nav-link" href="index.html">CONTACTO</a>
+        </nav>
+
+        <div>
+            <h1 style="text-align: center; background-color: rgba(0, 0, 0, 0.52); color:white;">MARTIN IGNACIO RIOS CRUZ</h1>
+            <h6 style="text-align: center;"> ANALISTA PROGRAMADOR - INACAP.</h6>
+            <br>
+            <br>
+
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col">
+                </div>
+                <div class="col">
+                    <form action="Martin" id="signupForm1" class="form-group bg-light p-5" style="border-radius: 12px">
+                        <h4 class="pb-4">FORMULARIO DE INGRESO</h4>
+                        <label for="MRnombre">Nombre: </label>
+                        <input type="text" name="MRnombre" id="MRnombre" value="" size="40" maxlength="20"  required placeholder="Escriba su nombre aqui..."/>
+                        <small id="emailHelp" class="form-text text-muted">Ingrese el nombre de administrador.</small>
+
+                        <hr>
+                        <label for="MRclave1"> Ingrese su clave: </label>
+                        <input pattern="[0-9]{4}" inputmode="numeric" name="MRclave1" id="MRclave1" value="" size="40" maxlength="4" required placeholder="Escriba su clave aqui..."/>
+                        <small id="emailHelp" class="form-text text-muted">Su clave debe ser de tipo numerica, con una longitud de 4 digitos.</small>
+                        <hr>
+
+                        <label for="MRclave2"> Ingrese su clave nuevamente: </label>
+                        <input pattern="[0-9]{4}" inputmode="numeric" name="MRclave2" id="MRclave2" value="" size="40" maxlength="4" required  placeholder="Escriba su clave aqui..."/>
+                        <small id="emailHelp" class="form-text text-muted">Para poder validar el inicio de sesion, ambas claves deben coincidir.</small>
+                        <hr>
+
+                        <br>
+                        <br>
+
+
+                        <input type="submit" value="CONFIRMAR" class="btn-success" id="botonCase1"/>
+                        <input type="reset" value="LIMPIAR" class="btn-warning" id="botonCase2">
+                    </form>
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
